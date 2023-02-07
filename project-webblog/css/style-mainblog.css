@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Anton;
+    src: url(../font/Anton-Regular.ttf);
+}
+* {
+    font-family: Anton;
+    margin:  0 ;
+    padding: 0 ;
+}
+
+/* menubar */
+.control-menu {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+.control-menu .nav-menu {
+    padding: 0px 150px;
+}
+.control-menu .nav-link {
+    padding: 10px 0px;
+}
+/* menubar */
+
+
+
+
+/* greet */
+.control-greeting {
+    max-width: 650px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+.control-greeting .greet {
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+/* blog */
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding : 0px 100px;
+    grid-gap : 0px 50px;
+}
+.grid-card .card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+}
+.grid-card .card {
+    max-width: 250px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 15px 0px 0px 0px;
+}
+
+
+
+
+
+/* card */
+.control-card {
+    max-width: 980px;
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 65px 0px 0px 0px;
+}
+.control-card .row {
+    justify-content: center;
+    padding: 17px 0px 0px;
+}
+.control-card .row .col-lg-4 {
+    padding: 60px 0px 0px;
+}
+.control-card .img-fluid {
+    max-width: 210px;
+    width: 210px;
+    height: 216px;
+    border: 10px solid;
+}
+.text-center {
+    margin-left: -35px;
+}
+.control-card .col-lg-10 {
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.control-card .col-lg-10 .mb-0 {
+    text-align: center;
+}
+
+
+
+
+
+
+/* tag from */
+.grid-input {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+    max-width: 420px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.form-lable {
+    margin-left: 97px;
+    margin-top: 6px;
+}
+.form-control {
+    margin-left: -60px;
+}
+.control-textar {
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 128px;
+}
+.control-btn {
+    max-width: 162px;
+    margin: 0 auto;
+}
+
+
+
+/* show when user click submit */
+.control-alert {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+
+
+
+/* show comment */
+.contro-card {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.card-hearder {
+    padding: 15px 0px 0px 0px;
+}
